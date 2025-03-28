@@ -1,0 +1,20 @@
+/* custom.css */
+
+/* Navbar brand icon styling */
+.navbar-brand i {
+    margin-right: 8px;
+  }
+  
+  /* Smooth hover effects on cards */
+  .card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s;
+  }
+  
+  /* Footer icon hover effect */
+  footer a:hover {
+    color: #ffdd57;
+  }
+  
+  /* Custom animations or additional styling can be added here */
+  

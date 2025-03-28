@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="text-center py-5">
+  <h1 class="display-4 animate__animated animate__fadeInDown">Welcome to MultiMosaic</h1>
+  <p class="lead animate__animated animate__fadeInUp">A pioneering tech conglomerate powering innovations across diverse domains.</p>
+  <a href="{{ url_for('services') }}" class="btn btn-primary btn-lg animate__animated animate__pulse animate__infinite">Explore Our Services</a>
+</section>
+
+<section class="row py-5">
+  <div class="col-md-4 text-center">
+    <i class="fa-solid fa-code fa-4x text-primary mb-3 animate__animated animate__fadeInLeft"></i>
+    <h3>Software Development</h3>
+    <p>Cutting-edge software solutions tailored to your business needs.</p>
+  </div>
+  <div class="col-md-4 text-center">
+    <i class="fa-solid fa-cloud fa-4x text-success mb-3 animate__animated animate__fadeInUp"></i>
+    <h3>Cloud Computing</h3>
+    <p>Robust cloud platforms ensuring scalability and security.</p>
+  </div>
+  <div class="col-md-4 text-center">
+    <i class="fa-solid fa-robot fa-4x text-warning mb-3 animate__animated animate__fadeInRight"></i>
+    <h3>AI & Analytics</h3>
+    <p>Innovative AI solutions driving smarter business decisions.</p>
+  </div>
+</section>
+{% endblock %}
